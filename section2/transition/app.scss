@@ -1,0 +1,24 @@
+.fade{
+  // 表示されるときの設定
+  &-enter{
+    opacity: 0;
+    &-to{
+      opacity: 1;
+    }
+    &-active{
+      transition: opacity 1s;
+    }
+  }
+
+  &-leave{
+    opacity: 1;
+    &-to{
+      opacity: 0;
+    }
+    &-active{
+      transition: opacity 1s;
+    }
+  }
+
+
+}
